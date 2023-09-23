@@ -1,0 +1,489 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_101_SymmetricTree",
+            "request": "launch",
+            "mainClass": "LeetCode_101_SymmetricTree",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_13_Roman_to_Integer",
+            "request": "launch",
+            "mainClass": "LeetCode_13_Roman_to_Integer",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_14_LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LeetCode_14_LongestCommonPrefix",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_1_TwoSum",
+            "request": "launch",
+            "mainClass": "LeetCode_1_TwoSum",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_20_ValidParentheses",
+            "request": "launch",
+            "mainClass": "LeetCode_20_ValidParentheses",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_21_MergeTwoSortedLists",
+            "request": "launch",
+            "mainClass": "LeetCode_21_MergeTwoSortedLists",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_26_RemoveDuplicatesfromSortedArray",
+            "request": "launch",
+            "mainClass": "LeetCode_26_RemoveDuplicatesfromSortedArray",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_28_FindTheIndexOfTheFirstOccurrenceInAString",
+            "request": "launch",
+            "mainClass": "LeetCode_28_FindTheIndexOfTheFirstOccurrenceInAString",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_2_AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "LeetCode_2_AddTwoNumbers",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_3_LongestSubstring",
+            "request": "launch",
+            "mainClass": "LeetCode_3_LongestSubstring",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_4_Median_ofTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "LeetCode_4_Median_ofTwoSortedArrays",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_66_PlusOne",
+            "request": "launch",
+            "mainClass": "LeetCode_66_PlusOne",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_69_Sqrtx",
+            "request": "launch",
+            "mainClass": "LeetCode_69_Sqrtx",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_70_ClimbingStairs",
+            "request": "launch",
+            "mainClass": "LeetCode_70_ClimbingStairs",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_88_MergeSortedArray",
+            "request": "launch",
+            "mainClass": "LeetCode_88_MergeSortedArray",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_9_PalindromeNumber",
+            "request": "launch",
+            "mainClass": "LeetCode_9_PalindromeNumber",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_10_palindrome",
+            "request": "launch",
+            "mainClass": "_10_palindrome",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_11_Factorial_Recursion",
+            "request": "launch",
+            "mainClass": "_11_Factorial_Recursion",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_12_ProgramToCheckPrimeNumber",
+            "request": "launch",
+            "mainClass": "_12_ProgramToCheckPrimeNumber",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_13_PrintAllPrimeNumbers",
+            "request": "launch",
+            "mainClass": "_13_PrintAllPrimeNumbers",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_14_PrimeNumbersBetweenGivenRangeUsingFunction",
+            "request": "launch",
+            "mainClass": "_14_PrimeNumbersBetweenGivenRangeUsingFunction",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_15_pyramidStarPattern",
+            "request": "launch",
+            "mainClass": "_15_pyramidStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_16_ReversePyramidStarPattern",
+            "request": "launch",
+            "mainClass": "_16_ReversePyramidStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_17_RightTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "_17_RightTriangleStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_18_MirroredRightTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "_18_MirroredRightTriangleStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_19_reverseRightTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "_19_reverseRightTriangleStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_1_MiddelElementIsOdd",
+            "request": "launch",
+            "mainClass": "_1_MiddelElementIsOdd",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_20_reverseMirroredRightTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "_20_reverseMirroredRightTriangleStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_21_ConcatenateTwoStringsUsingWhileLoop",
+            "request": "launch",
+            "mainClass": "_21_ConcatenateTwoStringsUsingWhileLoop",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_22_ReverseASentenceUsingRecursion",
+            "request": "launch",
+            "mainClass": "_22_ReverseASentenceUsingRecursion",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_23_GCD_or_HCF",
+            "request": "launch",
+            "mainClass": "_23_GCD_or_HCF",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_24_LCM",
+            "request": "launch",
+            "mainClass": "_24_LCM",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_25_CreateAFileAndWriteAFile",
+            "request": "launch",
+            "mainClass": "_25_CreateAFileAndWriteAFile",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_26_countCharactersWordsAndLinesInAFile",
+            "request": "launch",
+            "mainClass": "_26_countCharactersWordsAndLinesInAFile",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_27_ConvertLowercaseStringToUpperCase",
+            "request": "launch",
+            "mainClass": "_27_ConvertLowercaseStringToUpperCase",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_28_ConvertUppercaseToLowercase",
+            "request": "launch",
+            "mainClass": "_28_ConvertUppercaseToLowercase",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_29_DeleteElementFromArray",
+            "request": "launch",
+            "mainClass": "_29_DeleteElementFromArray",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_2_OddMinusEvenInArray",
+            "request": "launch",
+            "mainClass": "_2_OddMinusEvenInArray",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_30_Pattern",
+            "request": "launch",
+            "mainClass": "_30_Pattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_31_Pattern",
+            "request": "launch",
+            "mainClass": "_31_Pattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_32_ButterFlyTriangleStarPattern",
+            "request": "launch",
+            "mainClass": "_32_ButterFlyTriangleStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_33_RombusStarPattern",
+            "request": "launch",
+            "mainClass": "_33_RombusStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_34_pyramidStarPatternWithDigit",
+            "request": "launch",
+            "mainClass": "_34_pyramidStarPatternWithDigit",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_35_ForwardAndReversePyramidStarPattern",
+            "request": "launch",
+            "mainClass": "_35_ForwardAndReversePyramidStarPattern",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_36_StringsProblem",
+            "request": "launch",
+            "mainClass": "_36_StringsProblem",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_37_replaceCharacter",
+            "request": "launch",
+            "mainClass": "_37_replaceCharacter",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_38_BubbleShort",
+            "request": "launch",
+            "mainClass": "_38_BubbleShort",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_39_SelectionSort",
+            "request": "launch",
+            "mainClass": "_39_SelectionSort",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_3_CharacterArrayPosition",
+            "request": "launch",
+            "mainClass": "_3_CharacterArrayPosition",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_40_InsertionSort",
+            "request": "launch",
+            "mainClass": "_40_InsertionSort",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_41_TowerOfHanoi",
+            "request": "launch",
+            "mainClass": "_41_TowerOfHanoi",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_42_CharacterOccurrence",
+            "request": "launch",
+            "mainClass": "_42_CharacterOccurrence",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_43_MoveCharTolastString",
+            "request": "launch",
+            "mainClass": "_43_MoveCharTolastString",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_44_RemoveDuplicates",
+            "request": "launch",
+            "mainClass": "_44_RemoveDuplicates",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_45_AllSubsequence",
+            "request": "launch",
+            "mainClass": "_45_AllSubsequence",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_46_KeypadCombination",
+            "request": "launch",
+            "mainClass": "_46_KeypadCombination",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_47_Hasing",
+            "request": "launch",
+            "mainClass": "_47_Hasing",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_48_hashMap",
+            "request": "launch",
+            "mainClass": "_48_hashMap",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_4_ReverseInteger",
+            "request": "launch",
+            "mainClass": "_4_ReverseInteger",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_5_TwoArraysDistinctIntegers",
+            "request": "launch",
+            "mainClass": "_5_TwoArraysDistinctIntegers",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_6_PointOfEquilibrium",
+            "request": "launch",
+            "mainClass": "_6_PointOfEquilibrium",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_7_SecondHeightInArray",
+            "request": "launch",
+            "mainClass": "_7_SecondHeightInArray",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_8_SumofDigitsNumberUsingRecursion",
+            "request": "launch",
+            "mainClass": "_8_SumofDigitsNumberUsingRecursion",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "_9_leapYear",
+            "request": "launch",
+            "mainClass": "_9_leapYear",
+            "projectName": "JAVA_ccdb4fb6"
+        }
+    ]
+}
