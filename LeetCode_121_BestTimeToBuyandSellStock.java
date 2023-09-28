@@ -17,6 +17,21 @@ Output: 0
 Explanation: In this case, no transactions are done and the max profit = 0. */
 
 
-public class LeetCode_121 {
-    
+public class LeetCode_121_BestTimeToBuyandSellStock {
+    public static int maxProfit(int[] prices) {
+        int maxprofit = 0;
+        int lowPrice= prices[0];
+        int currentPrice=0;
+        for(int day=1; day < prices.length; day++){
+            lowPrice = prices[day] < lowPrice? prices[day] : lowPrice;
+            currentPrice = prices[day] - lowPrice;
+            maxprofit = currentPrice < maxprofit? maxprofit : currentPrice;
+        }
+        return maxprofit;
+    }
+
+    public static void main(String[] args){
+        System.out .println(maxProfit(new int[]{7,1,5,3,6,4}));
+        System.out .println(maxProfit(new int[]{7,6,4,3,1}));
+    }
 }
