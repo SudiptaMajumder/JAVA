@@ -46,6 +46,34 @@
         },
         {
             "type": "java",
+            "name": "LeetCode_118_PascalsTriangle",
+            "request": "launch",
+            "mainClass": "LeetCode_118_PascalsTriangle",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_121_BestTimeToBuyandSellStock",
+            "request": "launch",
+            "mainClass": "LeetCode_121_BestTimeToBuyandSellStock",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_125_ValidPalindrome",
+            "request": "launch",
+            "mainClass": "LeetCode_125_ValidPalindrome",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_136_SingleNumber",
+            "request": "launch",
+            "mainClass": "LeetCode_136_SingleNumber",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
             "name": "LeetCode_13_Roman_to_Integer",
             "request": "launch",
             "mainClass": "LeetCode_13_Roman_to_Integer",
@@ -53,9 +81,30 @@
         },
         {
             "type": "java",
+            "name": "LeetCode_141_LinkedListCycle",
+            "request": "launch",
+            "mainClass": "LeetCode_141_LinkedListCycle",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
             "name": "LeetCode_14_LongestCommonPrefix",
             "request": "launch",
             "mainClass": "LeetCode_14_LongestCommonPrefix",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_169_MajorityElement",
+            "request": "launch",
+            "mainClass": "LeetCode_169_MajorityElement",
+            "projectName": "JAVA_ccdb4fb6"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode_171_ExcelSheetColumnNumber",
+            "request": "launch",
+            "mainClass": "LeetCode_171_ExcelSheetColumnNumber",
             "projectName": "JAVA_ccdb4fb6"
         },
         {
@@ -91,13 +140,6 @@
             "name": "LeetCode_28_FindTheIndexOfTheFirstOccurrenceInAString",
             "request": "launch",
             "mainClass": "LeetCode_28_FindTheIndexOfTheFirstOccurrenceInAString",
-            "projectName": "JAVA_ccdb4fb6"
-        },
-        {
-            "type": "java",
-            "name": "LeetCode_2_AddTwoNumbers",
-            "request": "launch",
-            "mainClass": "LeetCode_2_AddTwoNumbers",
             "projectName": "JAVA_ccdb4fb6"
         },
         {
