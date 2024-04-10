@@ -27,10 +27,9 @@ Example 3:
 Input: columnTitle = "ZY"
 Output: 701 */
 
-import java.util.*;
 public class LeetCode_171_ExcelSheetColumnNumber {
 
-    public static int titleToNumber(String columnTitle) {
+    public int titleToNumber(String columnTitle) {
         int result=0;
         for (int i = 0; i<columnTitle.length(); i++){
             char c = columnTitle.charAt(i);
@@ -40,11 +39,11 @@ public class LeetCode_171_ExcelSheetColumnNumber {
     }
 
     public static void main(String args[]) {
-        //LeetCode_171_ExcelSheetColumnNumber solution = new LeetCode_171_ExcelSheetColumnNumber();
+        LeetCode_171_ExcelSheetColumnNumber solution = new LeetCode_171_ExcelSheetColumnNumber();
     
-        System.out.println(titleToNumber("A"));
-        System.out.println(titleToNumber("AB"));
-        System.out.println(titleToNumber("AA"));
-        System.out.println(titleToNumber("ZY")); 
+        System.out.println(solution.titleToNumber("A"));
+        System.out.println(solution.titleToNumber("AB"));
+        System.out.println(solution.titleToNumber("AA"));
+        System.out.println(solution.titleToNumber("ZY")); 
       }
 }
